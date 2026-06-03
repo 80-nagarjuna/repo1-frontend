@@ -7,7 +7,7 @@ pipeline {
             steps {
                 dir('frontend') {
                     git branch: 'main',
-                        url: 'https://github.com/USERNAME/repo1-frontend.git'
+                        url: 'https://github.com/80-nagarjuna/repo1-frontend.git'
                 }
             }
         }
@@ -16,7 +16,7 @@ pipeline {
             steps {
                 dir('assets') {
                     git branch: 'main',
-                        url: 'https://github.com/USERNAME/repo2-assets.git'
+                        url: 'https://github.com/80-nagarjuna/repo2-assets.git'
                 }
             }
         }
